@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+
+body {
+  background-color: #000000;
+  background-image: linear-gradient(to-top, #000000 0%, #414141 74%);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.App {
+  font-family: sans-serif;
+  position: relative;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: 100%;
+  padding: 10px;
+}

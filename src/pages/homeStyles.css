@@ -1,0 +1,29 @@
+h1,
+p,
+h2,
+h3,
+h4,
+h5,
+h6,
+li,
+a {
+  color: white;
+}
+
+.movie__card__container {
+  width: 100%;
+  margin: 0 auto;
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.heading {
+  font-size: 48px;
+  margin: 15px;
+}
+
+.homePage__wrapper {
+  width: 100%;
+  padding: 10px;
+}

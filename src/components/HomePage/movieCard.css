@@ -1,0 +1,84 @@
+.movie__card {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #191919;
+  width: 100%;
+  padding: 10px;
+  margin: 5px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.movie__card__title {
+  color: white;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.movie__card__lower {
+  display: flex;
+  align-items: center;
+}
+
+.movie__card__image__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+}
+
+.movie__card__image__container img {
+  max-width: 200px;
+  border-radius: 10px;
+}
+
+.movie__card__action__button {
+  transition: transform 0.1s ease-in;
+  margin-right: 5px;
+}
+
+.movie__card__action__button__container {
+  outline: none;
+  border: none;
+  color: transparent;
+  background: none;
+  cursor: pointer;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  transition: transform 0.1s ease-in;
+  background-color: #1f1f1f;
+  border-radius: 5px;
+  margin: 7px 5px;
+}
+
+.movie__card__comments__contianer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.movie__card__comment {
+  margin: 5px 0;
+  text-align: left;
+}
+
+.movie__card__action__button__container:hover > .movie__card__action__button {
+  transform: scale(1.1);
+}
+
+.movie__card__comments__contianer {
+  padding: 10px;
+  margin-top: 7px;
+}
+
+@media only screen and (max-width: 600px) {
+  .movie__card {
+    max-width: 100%;
+  }
+}
